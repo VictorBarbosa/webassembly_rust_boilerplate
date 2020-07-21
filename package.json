@@ -1,0 +1,22 @@
+{
+  "name": "webassembly_rust_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "concurrently \"tsc -w \" \"webpack --mode production\"",
+    "dev": "concurrently \"tsc -w \" \"webpack-dev-server --port 9000 --open\""
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "0.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "text-encoding": "^0.7.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.0",
+    "concurrently": "5.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

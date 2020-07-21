@@ -1,0 +1,41 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./scripts",
+    "watch": true,
+    // "importHelpers": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  }
+}
+// {
+//   
+//   "compilerOptions": {
+//     // "target": "ES2020",
+//     // "module": "ES2015",
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "importHelpers": true,
+//     "target": "es2015",
+//     
+//     "outDir": "./scripts",
+//     "allowJs": true,
+//     "lib": [
+//       "es2018",
+//       "dom"
+//     ]
+//   },
+//   "include": [
+//     "**/*"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "target",
+//     "pkg",
+//     "webpack.config.js",
+//     "typescripts/**/*.ts",
+//     "scripts/**/*.js"
+//   ]
+// }
