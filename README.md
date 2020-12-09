@@ -1,4 +1,4 @@
-# Webassembly using rust
+# WebAssembly using rust
 
 ### You must have installed Node and Rust 
 <ol>
